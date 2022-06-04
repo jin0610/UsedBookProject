@@ -1,0 +1,69 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.bx-wrapper, .bx-viewport, .sliderImage{ 
+    height: 100%;
+    width: 100%;
+}
+.background__01{
+    height: 100%;
+    width: 100%;
+    background-size : cover;
+    background-position: center;
+    background: url("../image/background01.jpg") no-repeat;
+}
+.background__02{
+    height: 100%;
+    width: 100%;
+    background-size : cover;
+    background-position: center;
+    background: url("../image/background02.jpg") no-repeat;
+}
+.background__03{
+    height: 100%;
+    width: 100%;
+    background-size : cover;
+    background-position: center;
+    background: url("../image/background03.jpg") no-repeat;
+}
+/* 배경 그림 위에 어두운 dot 이미지 삽입 */
+.overLayout{
+    height: 100%;
+    width: 100%;
+    background: url(../Image/dot.png);
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+.contents{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 300px;
+    width: 600px;
+    margin:-150px 0px 0px -300px;
+    z-index:10;
+    text-align:center;
+}
+.contents__name{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.contents__details{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+.contents__list>li{
+    display: inline-block;
+    width: 52px;
+    height:52px;
+    margin-right: 20px;
+}
+.contents__list>li>a{
+    color: white;
+}
