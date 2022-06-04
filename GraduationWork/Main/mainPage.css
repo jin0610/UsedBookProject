@@ -47,23 +47,83 @@ html,body{
     text-align:center;
 }
 .contents__name{
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .contents__details{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
-    margin-bottom: 50px;
 }
-.contents__list>li{
+
+.contents__login{ 
+    position:absolute; 
+    z-index: 10; 
+    width:100%; 
+    margin-top: 80px;
+}
+.login__inform {  
+    position: relative; 
+    width: 300px; 
+    height: 30px;
+    left:25%;
+    margin-top:10px;
+}
+.login__inform > input{
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color:rgba(241, 241, 241, 0.267);
+    border: none;
+    font-size: 12px; 
+}
+input::-webkit-input-placeholder{  /*user id, user pwd 글자색상*/
+    color:rgba(207, 207, 207, 0.733);
+}
+
+/*로그인버튼*/
+.login__btn{
+    margin-top:20px;
+    margin-bottom: 5px;
+} 
+.login__btn > button {
+    width: 20%; 
+    height:20px;
+    background-color:rgba(82, 80, 80, 0.74);
+    color: #fff;
+    font-size: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/*forgot password*/
+.login__caption{  
+    text-align: center;
+}
+.login__caption>a{
+    font-size: 10px; 
+    color: rgb(211, 209, 209);
+}
+
+
+.sns{
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    height: 30px;
+    width: 600px;
+    margin:0px 0px 0px -300px;
+    z-index:10;
+    text-align:center;
+}
+.sns__list>li{
     display: inline-block;
-    width: 52px;
-    height:52px;
-    margin-right: 20px;
+    width: 10px;
+    height:30px;
+    margin-right: 10px;
 }
-.contents__list>li>a{
-    color: white;
+.sns__list>li>a{
+    color: rgb(238, 237, 237);
 }

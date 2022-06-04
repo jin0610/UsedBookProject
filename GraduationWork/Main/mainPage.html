@@ -15,16 +15,18 @@
             pager:false,
             auto:true
         }); });
-      </script>
-    <!--icon 적용(ionicons)-->
+      </script> 
+    
+      <!--icon 적용(ionicons)-->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
 
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="mainPage.css">
 
 </head>
 <body>
-    <div class="overLayout"></div>
+    <div class="overLayout"></div> <!--그림 색상 어둡게 적용-->
 
     <div class="sliderImage">
         <div class="background__01"></div>
@@ -35,28 +37,47 @@
     <div class = "contents">
         <p class = "contents__name">Logo Name</p>
         <p class = "contents__details">
-            The official website for buying and selling <br>major and liberal arts books 
+            The official website for buying and selling<br>major and liberal arts books 
             within university departments.</p>
-        <div class="contents__sns">
-            <ul class="contents__list">
-                <li>
-                    <a href = "https://www.facebook.com/">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                   
-                </li>
-                <li>
-                    <a href = "https://twitter.com/">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://www.instagram.com/">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </li>
-            </ul>
+
+
+
+        <div class="contents__login">
+            <form action="">
+                <div class="login__inform">
+                <input type="text" autocomplete="off" placeholder="USER ID" required></div>
+                <div class="login__inform">
+                    <input type="password" autocomplete="off" placeholder="USER PASSWORD" required></div>
+                <div class="login__btn">
+                    <button type="submit">LOGIN</button>
+                </div>
+
+            </form>
+            <div class="login__caption">
+                <a href="">Forgot Password?</a>
+            </div>
         </div>
+    </div>
+
+
+    <div class="sns"> <!--하단부 sns 이미지 삽입. 링크 삽입.-->
+        <ul class="sns__list">
+            <li>
+                <a href = "https://www.facebook.com/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href = "https://twitter.com/">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href = "https://www.instagram.com/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </ul>
     </div>
     
 </body>
