@@ -23,7 +23,6 @@
     text-align: left;
     letter-spacing:2px;
 }
-
 .header__list{
     width:80%;
     height: 20px;
@@ -34,11 +33,10 @@
 .header__list li{
     display:inline-block;
 }
-
 .header__list li a{
     display: block;
     font-size:12px;
     margin: 0px 20px;
     letter-spacing:1px;
-    color: rgb(173, 173, 173);
+    color: rgb(170, 170, 170);
 }
