@@ -1,0 +1,44 @@
+*{
+    text-decoration:none;
+    list-style:none;
+    color: black;
+}
+.header{
+    width:100%;
+    box-sizing:border-box;
+    border-bottom: 1px solid #999;
+}
+.header__logo{
+    margin:15px 0px 0px 25px;
+    display: inline-block;
+}
+.header__logo h1 {
+    font-size:40px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.header__logo p{
+    font-size: 15px;
+    text-align: left;
+    letter-spacing:2px;
+}
+
+.header__list{
+    width:80%;
+    height: 20px;
+    text-align: right;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.header__list li{
+    display:inline-block;
+}
+
+.header__list li a{
+    display: block;
+    font-size:12px;
+    margin: 0px 20px;
+    letter-spacing:1px;
+    color: rgb(173, 173, 173);
+}
