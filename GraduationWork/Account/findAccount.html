@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="findAccount.css">
+    <link rel="stylesheet" href="../Header/header.css">
+</head>
+
+<body>
+    <!--헤더 적용-->
+    <header class="header">
+        <ul>
+            <div class="header__logo">
+                <li><h1 href="#">NAME</h1></li>
+                <li><p href="#">book store</p></li>
+             </div>
+            <div class="header__list">
+                <li><a href="#">abcd</a></li>
+                <li><a href="#">efgh</a></li>
+                <li><a href="#">ijkl</a></li>
+                <li><a href="#">mnop</a></li>
+            </div>
+        </ul>
+    </header>
+
+<div class="content">
+    <!--아이디 찾기 폼-->
+    <div class="findId">
+        <p class = "findId__title">아이디 찾기</p>
+        <form action="">
+            <table>
+                <tr>
+                    <td class="findId__menu"><label for="name">이름 *</label></td>
+                    <td>
+                        <input type="text" id="name" name="name" required autocomplete="off">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="findId__menu"><label for="student_number">학번 *</label></td>
+                    <td>
+                        <input type="text" id="student_number" name="student_number" required autocomplete="off">
+                    </td>
+                </tr>
+            </table>
+
+            <div class="findId__button">
+                <input type="submit"value="확인">
+            </div>
+        </form>
+    </div>
+    
+    <!--비밀번호 찾기 폼-->
+    <div class="findPwd">
+        <p class = "findPwd__title">비밀번호 찾기</p>
+
+        <form action="">
+            <table>
+                <tr>
+                    <td class="findPwd__menu"><label for="name">이름 *</label></td>
+                    <td>
+                        <input type="text" id="name" name="name" required autocomplete="off">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="findPwd__menu"><label for="id">아이디 *</label></td>
+                    <td>
+                        <input type="text" id="id" name="id" required autocomplete="off">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="findPwd__menu"><label for="student_number">학번 *</label></td>
+                    <td>
+                        <input type="text" id="student_number" name="student_number" required autocomplete="off">
+                    </td>
+                </tr>
+            </table>
+            <div class="findPwd__button">
+                <input type="submit"value="확인">
+            </div>
+        </form>
+    </div>
+</div>
+
+    
+
+
+</body>

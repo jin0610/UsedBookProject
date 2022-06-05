@@ -23,17 +23,18 @@ table td{  /*한줄 한줄*/
     border-top: 0.5px solid rgb(200,200,200);
     border-bottom: 0.5px solid rgb(200,200,200);
 }
-table tr .signUp__menu{  /*왼쪽 목차*/
+table td input{  /*오른쪽 작성항목*/
+    width: 200px;
+    height: 14px;
+    font-size: 10px;
+    color:rgb(104, 100, 100);
+    margin: 8px 0px 8px 20px;
+}
+.signUp__menu{  /*왼쪽 목차*/
     font-size: 11px;
     padding-left: 20px;
     border-right: 0.5px solid rgb(200,200,200);
 }
-table tr input{  /*오른쪽 작성항목*/
-    width: 200px;
-    height: 14px;
-    margin: 8px 0px 8px 20px;
-}
-
 .signUp__button{
     width:100%;
     margin-top:30px;
