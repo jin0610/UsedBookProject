@@ -1,0 +1,52 @@
+.signUp{
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    height: 360px;
+    width: 800px;
+    margin:-180px 0px 0px -400px;
+}
+.signUp__title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align:center;
+    letter-spacing:2px;
+    margin-bottom: 50px;
+    color: rgb(92, 92, 92);
+}
+table{  /*테이블 전체*/
+    width: 100%;
+    position: relative;
+}
+table td{  /*한줄 한줄*/
+    height: 30px;
+    border-top: 0.5px solid rgb(200,200,200);
+    border-bottom: 0.5px solid rgb(200,200,200);
+}
+table tr .signUp__menu{  /*왼쪽 목차*/
+    font-size: 11px;
+    padding-left: 20px;
+    border-right: 0.5px solid rgb(200,200,200);
+}
+table tr input{  /*오른쪽 작성항목*/
+    width: 200px;
+    height: 14px;
+    margin: 8px 0px 8px 20px;
+}
+
+.signUp__button{
+    width:100%;
+    margin-top:30px;
+} 
+.signUp__button > input {
+    left: 50%;
+    height:35px;
+    width: 120px;
+    margin-left:-60px;
+    color: #fff;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    background-color:rgba(31, 31, 31, 0.9);
+}
